@@ -10,8 +10,8 @@ Correct answers will be shown after you click on what you think is a correct ans
 Go to next question by clicking on "Next".
 
 ## Built with
-*HTML/CSS
-*Javascript
+* HTML/CSS
+* Javascript
 
 ## Credits
 All the questions are fetched from Open Trivia Database.
