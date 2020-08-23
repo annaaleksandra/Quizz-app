@@ -1,0 +1,72 @@
+:root {
+    --background: #e2bde2;
+    --main: #f6def6;
+    --main2: #cff6cf;
+    --high: #bce6f7;
+    --borders: #f7d4f7;
+    --borders2: #bff1bf;
+    --borders3: #c4ecfc;
+
+}
+
+body {
+    background-color: var(--background);
+}
+
+#wrap {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 5em;
+}
+
+#questionbox {
+    justify-content: center;
+    border: var(--borders) 0.3em solid;
+    border-radius: 1em;
+    padding: 1em;
+    background-color: var(--main);
+}
+
+#options {
+    align-self: center;
+}
+
+.buttons {
+    padding: 1em;
+    margin: 2em;
+    border: var(--borders2) 0.2em solid;
+    border-radius: 1em;
+    width: 40%;
+    background-color: var(--main2);
+    transition: transform 100ms ease-in-out;
+}
+
+.buttons:hover {
+    border: var(--borders3) 0.2em solid;
+    background-color: var(--high);
+    transform: translate(-1px, 1px);
+}
+
+#correctAnswer {
+    color: #FFF;
+    font-size: 1.5em;
+    text-shadow: -0.1em 0.1em var(--borders);
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#next {
+    width: 15%;
+    align-self: center;
+    border: var(--borders) 0.2em solid;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    background-color: var(--main);
+    transition: transform 100ms ease-in-out;
+}
+
+#next:hover {
+    transform: scale(1.1);
+}
